@@ -1,8 +1,8 @@
 all: models env
 
 models:
-	unzip -d ./FC_Model/ FC_Model/other_FC_model.zip
-	unzip -d ./MD_Model/ MD_Model/other_MD_model.zip
+	unzip ./FC_Model/other_FC_model.zip -d ./FC_Model/
+	unzip ./MD_Model/other_MD_model.zip -d ./MD_Model/
 
 env:
 	./env.sh
