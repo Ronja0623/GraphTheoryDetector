@@ -1,0 +1,33 @@
+{
+    "path": {
+        "predict_result": "./output/Predict/predict.json",
+        "label_file": "/home/sunnyhe/filtered_data.json",
+        "score": "./output/Log/score.json",
+        "log": "./output/Log/log.log"
+    },
+    "folder": {
+        "dataset": "/home/sunnyhe/Document/Dataset/archive_senior/all_files",
+        "disassemble": "Document/Project/GraphTheoryDetector-tmp/output/Disassemble/",
+        "feature": "Document/Project/GraphTheoryDetector-tmp/output/Feature/",
+        "vectorize": "Document/Project/GraphTheoryDetector-tmp/output/Vectorize/",
+        "model": "Document/Project/GraphTheoryDetector-tmp/output/Model/",
+        "predict": "Document/Project/GraphTheoryDetector-tmp/output/Predict/",
+        "log": "Document/Project/GraphTheoryDetector-tmp/output/Log/"
+    },
+    "model": {
+        "model_name": "MLP",
+        "max_iter": 200,
+        "alpha": 1e-4,
+        "solver": "sgd",
+        "learning_rate_init": 0.001,
+        "activation": "relu",
+        "batch_size": "auto",
+        "momentum": 0.9,
+        "learning_rate": "constant",
+        "tol": 1e-4,
+        "random_state": 1
+    },
+    "train": true,
+    "predict": false,
+    "classify": false
+}
